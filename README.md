@@ -1,6 +1,8 @@
 # GutterLine.vim
 Show the current line as a gutter sign
 
+![gutterline](https://user-images.githubusercontent.com/6271599/36177296-861981d8-1115-11e8-959f-7b4ced7a0d20.png)
+
 # Configuration
 
 ## Update time
