@@ -4,11 +4,7 @@
 
 " TODO
 " - Create the doc file
-" - Check if the autocomd should be in another directory
-" - Check for other autocmd events if needed
 " - Create a custom highlighting group linked to SignColumn by default
-" - Add an "installation" section in the README
-" - Add a screenshot in the README
 
 if !has('signs') || exists('g:loaded_GutterLine') || &cp
   finish

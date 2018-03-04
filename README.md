@@ -3,6 +3,13 @@ Show the current line as a gutter sign
 
 ![gutterline](https://user-images.githubusercontent.com/6271599/36177296-861981d8-1115-11e8-959f-7b4ced7a0d20.png)
 
+# Installation
+
+You can install GutterLine with your prefered plugin manager. For example with
+[vim-plug](https://github.com/junegunn/vim-plug) simply add to your `.vimrc`:
+
+    Plug 'statox/gutterline.vim'
+
 # Configuration
 
 ## Update time
