@@ -3,7 +3,6 @@
 " Version:      0.1
 
 " TODO
-" - Create the doc file
 " - Create a custom highlighting group linked to SignColumn by default
 
 if !has('signs') || exists('g:loaded_GutterLine') || &cp
