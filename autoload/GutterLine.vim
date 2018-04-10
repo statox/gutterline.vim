@@ -27,12 +27,8 @@ function! GutterLine#PlaceLineSign()
 
     " If the buffer or the line number has changed move the lign sign
     if ( s:currentPosition[0] != s:previousPosition[0] || s:currentPosition[1] != s:previousPosition[1] )
-        if (bufexists(s:currentPosition[0]))
-            execute 'sign place ' . s:signToPlace . ' name=GutterLine line=' . s:currentPosition[1] . ' buffer=' . s:currentPosition[0]
-        endif
-        if (bufexists(s:previousPosition[0]))
-            execute 'sign unplace ' . s:signToUnplace . ' buffer=' . s:previousPosition[0]
-        endif
+        execute 'sign place ' . s:signToPlace . ' name=GutterLine line=' . s:currentPosition[1] . ' buffer=' . s:currentPosition[0]
+        execute 'sign unplace ' . s:signToUnplace . ' buffer=' . s:previousPosition[0]
 
         let s:previousPosition = s:currentPosition
 
